@@ -1,0 +1,1 @@
+{'sens_ichimoku': ['vert'], 'position_ichimoku': ['vert'], 'position_sar': ['vert'], 'position_ema': ['vert'], 'sens_macd': ['vert'], 'heikin_ashi': [('vert', 'oui')], '4h_sens_ichimoku': ['vert'], '4h_position_ichimoku': ['vert'], '4h_position_sar': ['vert'], '4h_position_ema': ['vert'], '4h_sens_macd': ['vert'], '4h_heikin_ashi': [('vert', 'oui')]}
