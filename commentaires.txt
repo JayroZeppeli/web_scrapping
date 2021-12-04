@@ -1,1 +1,3 @@
 Importer des données de binance.com pour faire notre propre graphique et ne pas dépendre des mails.
+
+Premier commit Cyril
