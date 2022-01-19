@@ -162,7 +162,7 @@ def automate():
     guet()
 
 
-def initialisateur():  # On suppose qu'il n'y a pas de signal sur la dernière bougie a avoir fermé
+def initialisateur():  # On suppose qu'il n'y a pas de signal sur la dernière bougie à avoir fermé
     espion("l'automate se remet en route.\n", initialisation=True)
     reponses_communes = ['vert', 'rouge', 'neutre']
     tableau_reponse = {
