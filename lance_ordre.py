@@ -1,10 +1,8 @@
 from binance.client import Client
 
-api_key = '39IIhxL3vYq2dQRMUKNO8HosQbHuY26SmcvROOfjdKF0n1tzRSkLWQlByGzbaKzq'
-api_secret = '0P7PvqZaOEqzxUwDF1WlsMpp4mdHJ5SDLD6h30TZSSIHgd7lPe5z72lXa0fYdQz1'
+api_key = '' # you have to use your own api keys
+api_secret = ''
 
-"""api_key = 'yhDT4t0fM4DErCJjmOrGI88PKANmQMwDjLjxELZclLurKB6VzeBHZ6YV3v7mpdyE'
-api_secret = 'CT1XgMA3fyvAzztqHesUAvyKMSTyWNPLwKcN8JygdT6VzEEvJW5HhAYp0GRpnO57'"""
 
 client = Client(api_key, api_secret)
 client.API_URL = 'https://testnet.binance.vision/api'
