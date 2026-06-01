@@ -1,6 +1,6 @@
 from binance.client import Client
 
-api_key = '' # you have to use your own api keys
+api_key = '' # put your your API keys
 api_secret = ''
 
 
