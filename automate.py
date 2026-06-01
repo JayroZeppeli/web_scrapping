@@ -6,6 +6,9 @@ import ast
 import aide_a_la_lecture
 import lance_ordre
 
+your_email = "" # put your email here
+
+your_password = "" # put your password here
 
 def espion(information, initialisation=False, saut_de_ligne=""):
     if initialisation:
@@ -34,8 +37,8 @@ def validateur_reponses(demande, reponses_correctes):
 
 
 def inbox():
-    username = "trade1phil@gmail.com"
-    password = "1vray3_JO"
+    username = your_email
+    password = your_password
     host = 'imap.gmail.com'
     mail = imaplib.IMAP4_SSL(host)
     mail.login(username, password)
